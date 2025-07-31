@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+.btn{
+    @apply w-full p-2 bg-orange-500 text-white rounded-md;
+}
+
+.btn-secondary{
+    @apply bg-gray-500 text-white rounded-2xl px-4 py-2;
+}
+
+.btn-primary{
+    @apply bg-blue-500 text-white rounded-2xl px-4 py-2;
+}
+
+.btn-danger{
+    @apply bg-red-500 text-white rounded-2xl px-4 py-2;
+}
+
+.btn-warning{
+    @apply bg-yellow-500 text-white rounded-2xl px-4 py-2;
+}
+
+.btn-success{
+    @apply bg-green-500 text-white rounded-2xl px-4 py-2;
+}
+
+.btn-info{
+    @apply bg-gray-500 text-white rounded-2xl px-4 py-2;
+}
+
+.form-control{
+    @apply w-full p-2 border border-gray-300 rounded-md;
+}
+
+.content {
+    @apply ml-80 mt-0 p-4 bg-gray-300 rounded-xl mr-5 mb-10;
+}
+
+.content-header {
+    @apply mb-3 text-xl border-b border-gray-600 pb-3;
+}
+
+.alert {
+    @apply p-3 rounded-md shadow-lg pl-5;
+}
+
+.alert-success {
+    @apply bg-green-500 text-white;
+}
+
+.sidebar {
+    @apply fixed h-4/5 mb-10 w-64 bg-gradient-to-br from-blue-600 to-blue-300 text-white rounded-xl ml-5 p-0;
+}
+
+.sidebar-header {
+    @apply bg-gradient-to-br my-3 pb-2 from-blue-600 to-blue-300 text-white text-xl rounded-t-xl border-b border-gray-300;
+}
+
+.navbar {
+    @apply p-5 text-blue-400 border-b-2 border-blue-400 m-5;
+}
+
+.sidebar-body {
+    @apply p-3 mt-4 pt-1;
+}
+
+.menu {
+    @apply mb-4
+}
+
+.menu li {
+    @apply p-3 pl-5 rounded-md hover:bg-blue-500 hover:text-gray-800;
+}
+
+.active {
+    @apply bg-yellow-500 text-gray-800;
+}
+
+.btn-edit {
+    @apply bg-orange-500 py-2 px-2 pl-4 text-xl text-white rounded-md;
+}
+
+.btn-delete {
+    @apply bg-red-500 py-2 px-2 pl-4 text-xl text-white rounded-md;
+}
+
+.table {
+    @apply w-full;
+}
+
+.table th {
+    @apply bg-gray-400 p-2 pl-3;
+}
+
+.table th:first-child {
+    @apply rounded-tl-md;
+}
+
+.table th:last-child {
+    @apply rounded-tr-md;
+}
+
+.table td:last-child {
+    @apply rounded-br-md;
+}
+
+.table td {
+    @apply p-2 pl-3;
+}
+
+.table td {
+    @apply pl-3 p-2 bg-gray-200;
+}
+
+.table tr:last-child td:first-child {
+    @apply rounded-bl-md;
+}
+
+.table tr:last-child td:last-child {
+    @apply rounded-br-md;
+}
+
+.hoverexit:hover {
+    @apply shadow-xl;
+    transform: translateY(-1px);
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.5);
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.hovercreate:hover {
+    @apply shadow-xl;
+    transform: translateY(-1px);
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 255, 0, 0.5);
+    background-color: #00ff00;
+    color: #ffffff;
+}
+
+.hoveredit:hover {
+    @apply shadow-xl;
+    transform: translateY(-1px);
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(255, 196, 0, 0.5);
+    background-color: #ffbb00;
+    color: #ffffff;
+}
+
+.hoverdelete:hover {
+    @apply shadow-xl;
+    transform: translateY(-1px);
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.5);
+    background-color: #ff0000;
+    color: #ffffff;
+}
