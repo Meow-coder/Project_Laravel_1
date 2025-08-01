@@ -5,7 +5,7 @@
     <div class = "sidebar-body">
         <ul class = "menu">
             <li wire:click = "changeMenu('dashboard')" @if ($currentMenu == 'dashboard') class = "active" @endif>
-                    <i class = "fa-solid fa-house me-2">Daahboard</i>
+                    <i class = "fa-solid fa-house me-2">Dashboard</i>
             </li>
             <li wire:click = "changeMenu('expense/index')" @if ($currentMenu == 'expense/index') class = "active" @endif>
                     <i class = "fa-solid fa-building me-2"></i>
